@@ -1,0 +1,37 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:#143829 ;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    background-color: #fff;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    color: black;
+    padding: 20px; /* Adiciona algum espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.btn{
+    border-radius: 5px;
+    border: 0;
+    width: 30%;
+    height: 25px;
+    background-color: #E9972D;
+}
+
+.btn:hover{
+    background-color: #f19822;
+}

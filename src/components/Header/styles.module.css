@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    background-color:#143829;
+    color: #fff;
+    width: 100vw;
+    padding: 1%;
+    box-sizing: content-box ;
+    justify-content: center;
+  }
+  
+  .nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    
+  }
+  
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%; 
+
+  }
+  
